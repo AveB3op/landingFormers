@@ -1,0 +1,213 @@
+@media only screen and (max-width : 1220px)
+{
+  .info-item{
+    font-size: 46px;
+    text-align: center;
+    display: block;
+    min-height:200px;
+
+    min-width: 200px;
+    max-width: 200px;
+    cursor: pointer;
+    }
+    .contains{
+      margin: 45px 5px 20px;
+    }
+    .info-text{
+
+      font-size: 20px;
+    }
+    .info-text-active{
+
+      font-size: 16px;
+    }
+    .info-item-active{
+        max-width: 200px;
+    }
+}
+@media only screen and (max-width : 830px)
+{
+  .info-item{
+    font-size: 36px;
+    text-align: center;
+    display: block;
+    min-height:200px;
+
+    min-width: 150px;
+    max-width: 150px;
+    cursor: pointer;
+    }
+    .contains{
+      margin: 45px 5px 20px;
+    }
+    .info-text{
+
+      font-size: 20px;
+    }
+    .info-text-active{
+
+      font-size: 16px;
+    }
+    .info-item-active{
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width : 700px)
+{
+ .contacts{display: none;}
+ .login{display: none;}
+ .tel{
+   display: block;
+   margin-top: 15px;
+   max-height:20px;
+ }
+ .info-section{
+margin: 0;
+   color: white;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ }
+ .info-item{
+   font-size: 56px;
+   text-align: center;
+   display: block;
+   min-height:220px;
+   width: 100%;
+   max-width: 100%;
+   cursor: pointer;
+
+   }
+   .info-text-active{
+
+     font-size: 26px;
+   }
+}
+
+
+
+@media only screen and (max-width : 590px)
+{
+  h2{
+    font-size: 28px;
+  }
+  .slogan{
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color : white;
+    font-size: 28px;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.5);
+    max-height: 160px;
+
+    border-radius: 15px;
+  }
+
+  .register h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .register .btn {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .register-input{
+    font-size: 16px;
+    padding: 6px 35px 6px;
+    margin: 0 10px 12px 0;
+    min-width: 180px;
+    width: 85%;
+    border: 0px;
+    border-radius: 5px;
+
+  }
+  .trial-form{
+    height: 300px;
+    margin: 0 10% 0 5%;
+    width: 80%;
+    max-width: 500px;
+    }
+  .overlay{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 15px;
+    padding: 15px;
+
+
+  }
+}
+@media only screen and (max-width : 445px)
+{
+  .slogan{
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color : white;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.5);
+    max-height: 160px;
+
+    border-radius: 15px;
+  }
+  .trial-form{
+    height: 300px;
+    margin: 0 7% 0 2%;
+    width: 85%;
+    max-width: 500px;
+    }
+}
+
+@media only screen and (max-width : 350px)
+{  h2{
+    font-size: 24px;
+  }
+  .email{
+    min-width: 80%;
+  }
+  .register .btn {
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  .register-input{
+    font-size: 16px;
+    padding: 6px 15px 6px;
+    margin: 0 10px 12px 0;
+    min-width: 160px;
+    width: 85%;
+    border: 0px;
+    border-radius: 5px;
+
+  }
+  .info-text-active{
+
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width : 250px)
+{
+  .slogan{
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    color : white;
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.5);
+    max-height: 160px;
+
+    border-radius: 15px;
+  }
+}
